@@ -1,0 +1,1191 @@
+@media only screen and (min-width: 576px) {
+  #service-area .col-sm-6:nth-child(3) .child-left-service {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 610px) {
+  #client-area .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (min-width: 1441px) {
+  #business-area.section-padding {
+    padding: 113px 0 110px;
+  }
+  #service-area.section-padding {
+    padding: 138px 0px 145px;
+  }
+  #isotope-area.section-padding {
+    padding: 89px 0 109px;
+  }
+  #business-area.section-padding {
+    padding: 113px 0 110px;
+  }
+  #handcraft-area .main-container.section-padding {
+    padding: 96px 0 136px;
+  }
+  #project-area.section-padding {
+    padding: 100px 0 130px;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  .handcraft-img {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .handcraft-img {
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  #footer-area {
+    padding: 60px 0;
+  }
+  .left-project h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .left-project .first-p {
+    margin-bottom: 20px;
+  }
+  .left-handcraft h2 {
+    margin-bottom: 20px;
+  }
+  .left-handcraft .first_P {
+    margin-bottom: 20px;
+  }
+  #design-area {
+    padding-bottom: 72px;
+  }
+  .child-service h5 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .child-service i {
+    margin-bottom: 25px;
+  }
+  #contact-area {
+    padding: 70px 0;
+  }
+  #header-area {
+    padding: 43px 0 140px;
+  }
+  .section-padding {
+    padding: 80px 0;
+  }
+  .child-left-service {
+    margin-bottom: 50px;
+  }
+  .right-service h2 {
+    flex-grow: 1;
+
+    margin-bottom: 20px;
+  }
+
+  .child-left-service h5 {
+    margin-bottom: 10px;
+  }
+  .right-service {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+  }
+
+  .right-service p:nth-of-type(1),
+  .right-service p:nth-of-type(2) {
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+  .business-frame {
+    height: 300px;
+  }
+  .business-carousel {
+    margin-top: 21px;
+  }
+  .business-carousel img {
+    height: 300px;
+  }
+  #business-area .col-lg-6 .row {
+    align-items: center;
+    height: 100%;
+  }
+  .left-business h2 {
+    margin-bottom: 43px;
+    font-size: 40px;
+  }
+  .left-business p {
+    margin-bottom: 27px;
+  }
+  .child-isotope {
+    height: 260px;
+  }
+  .child-service i {
+    font-size: 50px;
+  }
+  .child-service {
+    height: 380px;
+  }
+  .left-handcraft i {
+    font-size: 42px;
+  }
+  #client-area {
+    margin-bottom: 80px;
+  }
+  .footer-head,
+  .footer-contact {
+    margin-bottom: 50px;
+  }
+}
+/* 1440 */
+@media only screen and (max-width: 1300px) {
+  .child-isotope {
+    height: 240px;
+  }
+  .child-service {
+    height: 360px;
+  }
+}
+@media only screen and (max-width: 1214px) {
+  .right-service h2 {
+    font-size: 44px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #footer-area {
+    padding: 50px 0;
+  }
+  #contact-area {
+    padding: 60px 0;
+  }
+  .section-padding {
+    padding: 70px 0;
+  }
+  .child-isotope {
+    height: 220px;
+  }
+  .project-titles li {
+    margin: 0px 24px;
+  }
+  .inner-design-area {
+    margin-top: -8.5%;
+  }
+  .child-lHandcraft h5 {
+    margin-bottom: 10px;
+  }
+  #client-area {
+    margin-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 1175px) {
+  .client-video-area {
+    height: 313px;
+  }
+  #client-area h2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+  }
+  #client-area p {
+    margin-bottom: 30px;
+  }
+  .main-menu ul li a {
+    margin-left: 36px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .child-service {
+    height: 380px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .child-service {
+    height: 390px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #contact-area .section-title {
+    margin-bottom: 57px;
+  }
+  #header-area {
+    padding: 43px 0 120px;
+  }
+  .child-left-service {
+    margin-bottom: 15px;
+  }
+  .left-business h2 {
+    font-size: 38px;
+  }
+  .handcraft-img {
+    width: 43%;
+  }
+  .left-project {
+    margin-top: -18px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .right-service h2 {
+    font-size: 37px;
+  }
+  .footer-form input {
+    padding: 14px;
+  }
+  #footer-area {
+    padding: 40px 0;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .child-isotope {
+    height: 200px;
+  }
+  .left-handcraft h2 {
+    font-size: 32px;
+  }
+}
+
+/* Medium Layout 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .child-service h5 {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  #header-area {
+    padding: 43px 0 100px;
+  }
+  .left-business h2 {
+    font-size: 35px;
+
+    margin-bottom: 15px;
+  }
+  .left-business p {
+    margin-bottom: 20px;
+  }
+  .child-isotope {
+    height: 190px;
+  }
+  .project-titles li {
+    margin: 0px 14px;
+  }
+  .project-titles {
+    margin-bottom: 40px;
+  }
+  .bottom-header h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+  .child-service i {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+}
+/* 992 */
+
+@media only screen and (max-width: 991px) {
+  .social-link li a i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .contact-form .boxed-btn {
+    padding: 12px 27px;
+    font-size: 14px;
+  }
+  .section-title h2 {
+    font-size: 34px;
+  }
+  #contact-area .section-title {
+    margin-bottom: 57px;
+  }
+  .child-lHandcraft h5 {
+    font-size: 18px;
+  }
+  .main-menu ul li a {
+    margin-left: 18px;
+  }
+}
+/* 991 */
+
+@media only screen and (max-width: 912px) {
+  .child-service {
+    height: 400px;
+  }
+}
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bottom-header {
+    padding-top: 96px;
+  }
+
+  .boxed-btn {
+    padding: 17px 57px;
+  }
+  .child-team h4 {
+    font-size: 19px;
+  }
+  .child-team p {
+    min-height: 192px;
+  }
+  .social-link li a i {
+    margin-right: 3px;
+  }
+
+  #about-area {
+    padding: 94px 0 95px;
+  }
+
+  #about-area .row {
+    row-gap: 100px;
+  }
+
+  #contact-area {
+    padding: 37px 0 53px;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+}
+/* 768px-991px */
+
+@media only screen and (max-width: 860px) {
+  #client-area h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  #client-area p {
+    margin-bottom: 20px;
+  }
+  .business-frame,
+  .business-carousel img {
+    height: 260px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  #header-area {
+    padding: 50px 0 80px;
+  }
+  .child-service {
+    height: 420px;
+  }
+}
+@media only screen and (max-width: 789px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .project-form .col-6:first-child {
+    padding-right: 0;
+  }
+
+  .project-form .col-6:last-child {
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #contact-area .section-title h2 {
+    font-size: 37px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 15px;
+  }
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {
+  .left-footer-contact h6,
+  .footer-form h6 {
+    margin-bottom: 15px;
+  }
+  .footer-head,
+  .footer-contact {
+    margin-bottom: 40px;
+  }
+  .handcraft-img {
+    position: relative;
+    right: 0;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .left-business {
+    max-width: 575px;
+    margin: 0 auto 40px;
+  }
+  .right-business {
+    max-width: 575px;
+
+    margin: 0 auto;
+  }
+  #design-area {
+    padding-bottom: 40px;
+  }
+  .inner-design-area {
+    margin-top: -7.5%;
+  }
+  .bottom-header {
+    padding-top: 60px;
+  }
+
+  .boxed-btn {
+    font-size: 13px;
+    padding: 11px 32px;
+  }
+
+  .bottom-header h2 {
+    font-size: 36px;
+  }
+
+  #team-area {
+    padding: 45px 0 20px;
+  }
+  .section-title {
+    margin: 0 auto 29px;
+  }
+  .section-title h2 {
+    font-size: 28.29px;
+    margin-bottom: 24px;
+  }
+  .child-team {
+    margin-bottom: 30px;
+  }
+  .child-team img {
+    margin-bottom: 16px;
+  }
+  .child-team h4 span {
+    margin: 5px 0 10px;
+  }
+  .child-team p {
+    margin-bottom: 19px;
+  }
+
+  #about-area {
+    padding: 35px 0 30px;
+  }
+
+  #about-area .section-title {
+    margin-bottom: 35px;
+  }
+  #about-area .row {
+    row-gap: 50px;
+  }
+
+  .child-about img {
+    margin-right: 23px;
+  }
+  .child-about p {
+    font-size: 21px;
+    line-height: 1.48;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  #about-area .section-title h2 {
+    font-size: 29px;
+  }
+
+  #contact-area .section-title {
+    margin-bottom: 39px;
+  }
+  #contact-area {
+    padding: 50px 0;
+  }
+
+  #contact-area .section-title {
+    margin-bottom: 45px;
+  }
+
+  .left-service {
+    margin-bottom: 20px;
+  }
+  .right-service {
+    width: 90%;
+    margin: 0 auto;
+    display: inherit;
+  }
+
+  #client-area h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  #client-area p {
+    margin-bottom: 15px;
+  }
+  .client-video-area-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .footer-menu ul li a {
+    margin-left: 18px;
+  }
+  .boxed-btn,
+  .bottom-header a:last-child.boxed-btn {
+    font-size: 13px;
+    padding: 14px 42px;
+  }
+  .child-service {
+    height: 380px;
+    margin-bottom: 20px;
+  }
+  #design-area .col-sm-6 {
+    margin: 0 auto;
+  }
+  .left-handcraft {
+    max-width: 575px;
+    margin: 0 auto 30px;
+  }
+  .left-project,
+  .project-form {
+    max-width: 575px;
+    margin: 0 auto;
+  }
+  .left-project {
+    margin-bottom: 40px;
+  }
+  .project-form textarea {
+    height: 230px;
+  }
+  #project-area input[type="submit"] {
+    margin-top: 10px;
+    max-width: 575px;
+    margin: 0 auto;
+    width: 96%;
+  }
+  .footer-form input {
+    width: 68%;
+  }
+  .footer-form input[type="submit"] {
+    width: 33%;
+  }
+  .main-menu {
+    text-align: center;
+    margin-top: 12px;
+  }
+  .logo-area {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .child-lHandcraft {
+    text-align: center;
+  }
+}
+/* 767px */
+
+@media only screen and (max-width: 712px) {
+  .bottom-header p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+@media only screen and (max-width: 680px) {
+  .child-service {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 609px) {
+  #client-area .col-md-6 {
+    max-width: 415px;
+    margin: 0 auto;
+  }
+  .left-client {
+    margin-bottom: 40px;
+  }
+  .client-video-area {
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .left-business {
+    text-align: center;
+  }
+  .left-business p {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-contact .col-sm-6:first-child {
+    padding-right: 5px;
+  }
+  .footer-contact .col-sm-6:last-child {
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #client-area {
+    margin-bottom: 50px;
+  }
+
+  .footer-menu {
+    text-align: center;
+  }
+  #service-area {
+    padding: 42px 0 36px;
+  }
+  .service-title {
+    margin: 0 auto 43px;
+  }
+  .child-service {
+    margin: 0 auto 20px;
+    width: 360px;
+    padding: 40px;
+    height: 330px;
+  }
+  .service-logo {
+    margin-bottom: 35px;
+  }
+  #about-area {
+    background: #d74680;
+    padding: 35px 2% 30px;
+    color: #fff;
+  }
+  #contact-area .section-title h2 {
+    font-size: 27px;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    margin: 0 auto 14px;
+    display: block;
+  }
+  #contact-area {
+    padding: 40px 0;
+  }
+  #contact-area .section-title {
+    margin-bottom: 35px;
+  }
+  .logo-area {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .logo-area {
+    margin: 0;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  #service-area .col-sm-6 {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  .right-service p {
+    margin-bottom: 15px;
+  }
+  .right-service h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .child-left-service h5 {
+    text-align: center;
+  }
+  .project-titles li {
+    margin: 0px 7px;
+  }
+  .project-titles {
+    margin-bottom: 35px;
+  }
+  .bottom-header h2 {
+    font-size: 31px;
+  }
+  #design-area {
+    padding: 40px 0 20px;
+  }
+  .inner-design-area {
+    margin-top: 0px;
+  }
+  .bottom-header p {
+    font-size: 14px;
+  }
+  .bottom-header {
+    padding-top: 20px;
+  }
+  .left-handcraft {
+    margin: 0 auto 30px;
+  }
+  .project-form textarea {
+    height: 200px;
+  }
+  .footer-form input {
+    max-width: 400px;
+    margin: 0 auto 20px;
+    display: block;
+    width: 100%;
+  }
+  .footer-form input[type="submit"] {
+    width: 100%;
+    max-width: 170px;
+    margin-bottom: 0;
+  }
+  .left-footer-contact {
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: none;
+  }
+  .footer-form {
+    text-align: center;
+  }
+  .footer-bottom,
+  .footer-bottom p {
+    text-align: center;
+  }
+  .footer-social {
+    margin-bottom: 7px;
+  }
+  #project-area input[type="submit"] {
+    max-width: 200px;
+    width: 96%;
+  }
+  .footer-head,
+  .footer-contact {
+    margin-bottom: 30px;
+  }
+  #footer-area .logo-area {
+    margin: 0;
+  }
+}
+/* 575px */
+
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .section-title {
+    margin: 0 auto 49px;
+  }
+  .service-title h2 {
+    font-size: 38px;
+  }
+
+  .section-title p {
+    font-size: 15.58px;
+    line-height: 1.444;
+  }
+  .child-team p {
+    min-height: 120px;
+  }
+}
+/* 480px~767px */
+
+@media only screen and (max-width: 500px) {
+  .business-frame,
+  .business-carousel img {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .service-title {
+    margin: 0 auto 40px;
+  }
+
+  #header-area {
+    padding: 50px 0 60px;
+  }
+  .bottom-header h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .project-titles li {
+    margin: 0px 4px;
+  }
+  .left-business h2 {
+    font-size: 31px;
+  }
+  .left-project h2 {
+    font-size: 44px;
+  }
+  #project-area input[type="submit"] {
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #service-area .row {
+    flex-direction: column;
+  }
+  #service-area .row .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .service-title h2 {
+    font-size: 23px;
+  }
+  .service-title p {
+    font-size: 15px;
+  }
+  .child-service h4 {
+    font-size: 23px;
+    margin-bottom: 9px;
+  }
+
+  #team-area .row {
+    flex-direction: column;
+  }
+  #team-area .col-6 {
+    max-width: 100%;
+  }
+  .section-title h2 {
+    font-size: 21px;
+    margin-bottom: 14px;
+    letter-spacing: 0;
+  }
+  .section-title p {
+    font-size: 14.58px;
+    line-height: 1.444;
+  }
+  .child-team h4 {
+    font-size: 20px;
+  }
+  .service-logo {
+    margin-bottom: 20px;
+  }
+}
+/* max-width:479px */
+
+@media only screen and (max-width: 449px) {
+  #service-area .col-sm-6 {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .left-handcraft {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .bottom-header h2 span {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+  .contact-form input,
+  .contact-form textarea {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .left-business p {
+    text-align: center;
+  }
+  .child-about img {
+    margin-right: 15px;
+  }
+  .child-about p {
+    font-size: 17px;
+
+    margin-bottom: 10px;
+  }
+  .child-about h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    font-size: 13px;
+  }
+  .right-service h2 {
+    font-size: 30px;
+  }
+  .child-left-service {
+    margin-bottom: 15px;
+  }
+  .child-isotope {
+    height: 170px;
+  }
+  .project-titles {
+    margin-bottom: 25px;
+  }
+  .client-video-area {
+    height: 250px;
+  }
+  .bottom-header h2 {
+    font-size: 24px;
+  }
+  .left-business h2 {
+    font-size: 29px;
+  }
+  .left-project h2 {
+    font-size: 42px;
+  }
+}
+
+/* 425 */
+
+@media only screen and (max-width: 424px) {
+  #about-area .row {
+    row-gap: 40px;
+  }
+  #about-area .section-title h2 {
+    font-size: 21px;
+  }
+  #client-area h2 {
+    font-size: 29px;
+    margin-bottom: 15px;
+  }
+  #service-area .col-sm-6 {
+    max-width: 90%;
+  }
+  .project-titles li {
+    margin: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .business-frame,
+  .business-carousel img {
+    height: 200px;
+  }
+  #business-area .col-6 {
+    padding: 0 9px;
+  }
+  .left-business h2 {
+    font-size: 27px;
+  }
+  .left-project h2 {
+    font-size: 39px;
+  }
+  .footer-menu ul li a {
+    margin-left: 10px;
+  }
+}
+/* 400 */
+@media only screen and (max-width: 375px) {
+  #service-area .col-sm-6 {
+    max-width: 100%;
+  }
+  .right-service {
+    width: 100%;
+  }
+  .right-service h2 {
+    font-size: 28px;
+  }
+  .bottom-header .boxed-btn {
+    margin-right: 20px;
+  }
+  .boxed-btn,
+  .bottom-header a:last-child.boxed-btn {
+    padding: 14px 22px;
+  }
+  .child-service {
+    width: 100%;
+
+    padding: 20px;
+    height: 300px;
+  }
+  .left-handcraft .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .child-lHandcraft {
+    margin-bottom: 20px;
+  }
+  .left-project h2 {
+    font-size: 36px;
+  }
+  .footer-menu ul li a {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+}
+/* 375 */
+@media only screen and (max-width: 374px) {
+  .client-video-area {
+    height: 235px;
+  }
+  .project-form .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .right-service h2 {
+    font-size: 26px;
+  }
+  .bottom-header h2 {
+    font-size: 20px;
+  }
+  .left-handcraft h2 {
+    font-size: 28px;
+  }
+  .left-project h2 {
+    font-size: 33px;
+  }
+  .footer-menu ul li a {
+    margin-bottom: 5px;
+  }
+  .footer-head,
+  .footer-contact {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #contact-area .section-title {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .footer-head,
+  .footer-contact {
+    margin-bottom: 20px;
+  }
+  #business-area .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .service-title h2 {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  .service-title p {
+    font-size: 14px;
+  }
+  .bottom-header {
+    padding-top: 20px;
+  }
+  .bottom-header h2 {
+    margin-bottom: 32px;
+  }
+
+  #about-area .row {
+    row-gap: 30px;
+  }
+
+  .child-about {
+    flex-flow: column;
+    text-align: center;
+  }
+  .child-about img {
+    margin-right: 0;
+    margin: 0 auto 10px;
+  }
+
+  .child-about p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .contact-form textarea {
+    height: 176px;
+  }
+  .bottom-header h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #contact-area {
+    padding: 30px 0;
+  }
+  #header-area {
+    padding: 50px 0;
+  }
+  .section-title p {
+    font-size: 15px;
+  }
+  .left-client {
+    text-align: justify;
+  }
+  .section-padding {
+    padding: 40px 0;
+  }
+  .right-service h2 {
+    font-size: 24px;
+  }
+  .child-left-service h5 {
+    margin-bottom: 6px;
+  }
+  .child-isotope {
+    height: 120px;
+  }
+  .client-video-area {
+    height: 215px;
+  }
+  .boxed-btn,
+  .bottom-header a:last-child.boxed-btn {
+    padding: 14px 20px;
+  }
+  .bottom-header .boxed-btn {
+    margin-right: 10px;
+  }
+  .child-service {
+    padding: 20px 10px;
+    height: auto;
+  }
+  .child-service i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .left-business h2 {
+    font-size: 24px;
+  }
+  .left-business p {
+    font-size: 15px;
+  }
+  #client-area {
+    margin-bottom: 40px;
+  }
+  .left-handcraft h2 {
+    font-size: 27px;
+    margin-bottom: 12px;
+  }
+  .left-project h2 {
+    font-size: 30px;
+  }
+}
+/* 319 */
+
+@media only screen and (max-width: 260px) {
+  .child-left-service h5 {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .business-frame,
+  .business-carousel img {
+    height: 200px;
+  }
+  #client-area h2 {
+    font-size: 19px;
+  }
+
+  .right-service h2 {
+    font-size: 18px;
+  }
+
+  #isotope-area .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .child-isotope {
+    height: 150px;
+  }
+  .boxed-btn,
+  .bottom-header a:last-child.boxed-btn {
+    padding: 14px 9px;
+  }
+  .left-handcraft h2 {
+    font-size: 21px;
+  }
+  .footer-form input[type="submit"] {
+    max-width: none;
+  }
+}
