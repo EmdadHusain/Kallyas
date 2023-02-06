@@ -623,9 +623,9 @@ select {
   border: 1px solid #000;
 }
 #project-area input[type="submit"] {
-  width: 100%;
+  width: 190px;
   padding: 15px 0;
-  margin-top: 18px;
+  margin: 18px auto 0;
 }
 .project-form input::placeholder,
 .project-form textarea::placeholder,
