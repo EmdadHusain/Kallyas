@@ -677,8 +677,8 @@ select {
   color: #fb414e;
 }
 .footer-menu {
-  text-align: right;
-  margin-top: 18px;
+    text-align: right;
+    margin-top: 32px;
 }
 .footer-menu ul li:first-child a {
   margin-left: 0px;
