@@ -615,6 +615,11 @@
     height: 270px;
   }
 }
+@media only screen and (max-width: 650px) {
+.footer-menu ul li a {
+    margin-left: 14px;
+}
+}
 @media only screen and (max-width: 600px) {
   .left-business {
     text-align: center;
