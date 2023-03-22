@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@600;700;900&display=swap');
 /*======================
 Common Css Starts 
 ========================*/
@@ -16,10 +16,29 @@ Common Css Starts
 .test {
   color: green;
 }
+.scroll_icn {
+	display:none;
+	position: fixed;
+	bottom: 3%;
+	right: 5%;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	background: #13518A85;
+	color: #fff;
+	line-height: 50px;
+  text-align:center;
+	color: #fff;
+}
 
 body {
   color: #1f1f1f;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   font-size: 16px;
   /* line-height: 1.5em; */
@@ -67,8 +86,8 @@ textarea {
   background: #fafafa;
   resize: none;
 }
-input[type="submit"],
-button[type="submit"] {
+input[type='submit'],
+button[type='submit'] {
   background: #fb414e;
   color: #fff;
 }
@@ -98,12 +117,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   margin-bottom: 0;
 }
 ul {
   margin-bottom: 0;
+  padding-left:0;
 }
 p {
   line-height: 1.75;
@@ -119,6 +139,12 @@ Common Css Ends
 /*=========================
   .header_area Starts
   ===========================*/
+  #menuBtn,#cancelBtn {
+    display: none;
+  }
+.mobile{
+    display:none;
+  }
 .main-menu {
   text-align: right;
   margin-top: 18px;
@@ -139,10 +165,8 @@ Common Css Ends
   padding-left: 1px;
 }
 #header-area {
-  background: url(img/studyImg.jpg) center/cover;
+  background: linear-gradient(#00000096,#00000038),url(img/studyImg.jpg) center/cover;
   padding: 43px 0 240px;
-  position: relative;
-  z-index: 1;
 }
 
 .top-header a {
@@ -158,28 +182,30 @@ Common Css Ends
 
   font-weight: 900;
 }
-
-.main-menu ul li a {
-  margin-left: 56px;
-  display: block;
-  position: relative;
-}
-
-.main-menu ul li a:before {
-  position: absolute;
-  bottom: -2px;
+.sticky {
+  position: fixed;
   left: 0;
-  width: 100%;
-  height: 2px;
-  background: #fb414e;
-  content: "";
-  opacity: 0;
-  transition: 0.5s;
-  visibility: hidden;
+  right: 0;
+  top:0;
+  background: #197c9fa3;
+  padding: 0 2% 10px 5%;
+  z-index: 999999999;
+  transition: .8s;
 }
+
+
+
+
+
 
 .main-menu ul li:first-child a {
-  margin-left: 0px;
+  margin-left: 0;
+}
+.main-menu ul li input{
+  display:none;
+}
+.main-menu ul ul li {
+  margin-left: 0;
 }
 
 .bottom-header {
@@ -191,7 +217,7 @@ Common Css Ends
 .bottom-header h2 {
   max-width: 891px;
   margin: 0 auto 56px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 60px;
   font-weight: 900;
   line-height: 1.3;
@@ -217,10 +243,7 @@ Common Css Ends
   margin-right: 0;
   padding: 14px 47px;
 }
-.main-menu ul li a:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
+
 #header-area:after {
   position: absolute;
   left: 0;
@@ -228,51 +251,55 @@ Common Css Ends
   width: 100%;
   height: 100%;
   background: #000;
-  content: "";
+  content: '';
   opacity: 0.3;
   z-index: -1;
 }
 /* Dropdown */
 .main-menu ul li {
   position: relative;
+  margin-left: 30px;
 }
 
 .main-menu ul ul {
-  position: absolute;
-  left: 54px;
-  top: 24px;
-  width: 180px;
-  background: #526971;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.2s;
-  margin-top: 30px;
+	position: absolute;
+	left: 0;
+	top: 24px;
+	width: 180px;
+	background: #136885d4;
+	visibility: hidden;
+	opacity: 0;
+	margin-top: 30px;
 }
 
 .main-menu ul ul li {
   display: block;
   text-align: center;
-  padding: 5px 0;
 }
 
 .main-menu ul ul li a {
   margin: auto;
-  display: inline-block;
+  display: block;
+  padding: 7px;
 }
 
 .main-menu ul ul ul {
-  left: 180px;
-  top: 0;
+	left: 180px;
+	top: 0;
+	background: #1d5896cf;
+}
+.main-menu ul ul ul ul {
+	background: #0e8fa4d1;
 }
 
 /* dropdown Hover */
 .main-menu ul li a {
-  margin-left: 56px;
+ 
   display: block;
   position: relative;
 }
 
-.main-menu ul li a:before {
+.main-menu > ul > li > a:before {
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -283,18 +310,116 @@ Common Css Ends
   opacity: 0;
   transition: 0.5s;
   visibility: hidden;
+  z-index: 100;
 }
 
-.main-menu ul li a:hover::before {
+.main-menu ul li:hover > a::before {
   opacity: 1;
   visibility: visible;
+}
+.main-menu ul ul li a:hover::before {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .main-menu ul li:hover > ul {
   visibility: visible;
   opacity: 1;
   margin-top: 0;
+  transition: .3s;
 }
+
+.main-menu ul ul li:hover > a {
+  background: #2590b66e;
+}
+.main-menu ul ul ul li:hover > a {
+  background: #1e6ec17d;
+  margin-bottom: 0;
+}
+.main-menu ul ul ul ul li:hover a {
+  background: #07b6d270;
+}
+/* MegaMenu S */
+.mega_box {
+	position: fixed;
+	width: 80%;
+	left: 10%;
+	background: #19aee3f2;
+	padding: 32px 44px;
+	opacity: 0;
+	visibility: hidden;
+	margin-top: 45px;
+}
+.bg_img {
+  position: relative;
+  height:100%;
+}
+
+.bg_img::before {
+  position:absolute;
+  right:0;
+  top:0 ;
+  width:90%;
+  height:100%;
+  content:''; 
+  background-image: url(img/laptopOperator.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 364px;
+}
+
+
+.main-menu ul li.mega_menu_li {
+  position: static;
+}
+.main-menu ul li.mega_menu_li ul {
+  position: static;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 0;
+  text-align: left;
+  padding-left: 0;
+  background: transparent;
+  width: auto;
+}
+.main-menu ul li.mega_menu_li ul li {
+  text-align: left;
+  font-size: 18px;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+.main-menu ul li.mega_menu_li ul li a {
+  padding: 8px 10px;
+}
+
+.main-menu h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 11px;
+  padding-left: 10px;
+}
+
+
+.main-menu ul li.mega_menu_li ul a:hover::before {
+  opacity: 0;
+  visibility: hidden;
+}
+.main-menu ul li.mega_menu_li ul li:hover a {
+  background: #07b8edf0;
+}
+
+.mega_menu_li:hover .mega_box,.mega_menu_li:hover .mega_box ul {
+  opacity: 1;
+  visibility: visible;
+  transition: .3s;
+  margin-top: 0;
+}
+
+
+
+/* megaEnd */
+
 /*=========================
     .header_area Ends
     ===========================*/
@@ -312,7 +437,7 @@ Common Css Ends
   padding: 18.5% 13%;
   color: #fff;
   max-height: 420px;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .child-service i {
@@ -328,7 +453,7 @@ Common Css Ends
   width: 51px;
   height: 3px;
   background: #fff;
-  content: "";
+  content: '';
 }
 
 .child-service h5 {
@@ -338,7 +463,11 @@ Common Css Ends
 }
 
 .child-service:hover {
-  background: #fb414e;
+  background: #467da4;
+}
+
+.child-service:hover p {
+  color: #fff;
 }
 
 .inner-design-area {
@@ -359,6 +488,11 @@ Common Css Ends
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 53px;
+}
+.left-business .boxed-btn:hover {
+	background: #fff;
+	color: #494949;
+	transition: .2s;
 }
 
 #business-area.main-container {
@@ -389,9 +523,9 @@ Common Css Ends
   height: 370px;
 }
 .business-frame {
-  background: #1abc9c;
-  height: 370px;
+  background: #134F5C;
   color: #fb414e;
+  height: 370px;
 }
 /*=========================
   .business-area Ends
@@ -437,15 +571,15 @@ Common Css Ends
   padding-right: 5px;
 }
 .child-isotope {
-  background: url(img/surface.jpg) center/cover;
+  background: url(img/Hood.jpg) center/cover;
   height: 320px;
   margin-bottom: 10px;
 }
 .child-isotope-bg-2 {
-  background: url(img/city.jpg) center/cover;
+  background: url(img/Nike.jpg) center/cover;
 }
 .child-isotope-bg-3 {
-  background: url(img/web.png) center/cover;
+  background: url(img/Number.jpg) center/cover;
 }
 .child-isotope-bg-4 {
   background: url(img/studyImg.jpg) center/cover;
@@ -454,13 +588,13 @@ Common Css Ends
   background: url(img/tab.jpg) center/cover;
 }
 .child-isotope-bg-6 {
-  background: url(img/sauce.jpg) center/cover;
+  background: url(img/BlackBag.jpg) center/cover;
 }
 .child-isotope-bg-7 {
   background: url(img/bag.jpg) center/cover;
 }
 .child-isotope-bg-8 {
-  background: url(img/apple.jpg) center/cover;
+  background: url(img/Chemical.jpg) center/cover;
 }
 .project-titles li {
   cursor: pointer;
@@ -472,14 +606,17 @@ Common Css Ends
 .project-titles li:after {
   position: relative;
   display: block;
-  width: 100%;
+  width: 110%;
   height: 2px;
   background: #1f1f1f;
-  content: "";
+  content: '';
   margin-top: -1px;
   opacity: 0;
   visibility: hidden;
-  transition: 0.8s;
+  transition: 0.3s;
+  transform: scale(0);
+  left: -5%;
+  top: 2px;
 }
 .project-titles li:hover {
   color: #1f1f1f;
@@ -492,6 +629,7 @@ Common Css Ends
 .project-titles li:hover:after {
   visibility: visible;
   opacity: 1;
+  transform: scalex(1);
 }
 
 .project-titles {
@@ -531,7 +669,7 @@ Common Css Ends
   width: 100%;
   height: 100%;
   background: #000;
-  content: "";
+  content: '';
   opacity: 40%;
   z-index: -1;
 }
@@ -622,7 +760,7 @@ select {
   padding: 17px 20px;
   border: 1px solid #000;
 }
-#project-area input[type="submit"] {
+#project-area input[type='submit'] {
   width: 190px;
   padding: 15px 0;
   margin: 18px auto 0;
@@ -670,15 +808,15 @@ select {
 }
 .footer-area h1 a {
   font-size: 36px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
 }
 .footer-area h1 span {
   color: #fb414e;
 }
 .footer-menu {
-    text-align: right;
-    margin-top: 36px;
+  text-align: right;
+  margin-top: 36px;
 }
 .footer-menu ul li:first-child a {
   margin-left: 0px;
@@ -702,7 +840,7 @@ select {
   width: 100%;
   height: 2px;
   background: #fb414e;
-  content: "";
+  content: '';
   opacity: 0;
   transition: 0.5s;
   visibility: hidden;
@@ -720,7 +858,7 @@ select {
   padding: 17px;
 }
 
-.footer-form input[type="submit"] {
+.footer-form input[type='submit'] {
   width: 23%;
 }
 .footer-contact {
@@ -743,9 +881,9 @@ select {
 }
 
 #footer-area .footer-bottom p {
-  font-size: 14px;
+  font-size: 14px;   
   color: #586165;
 }
 /*=========================
     .footer_area Ends
-    ===========================*/
+===========================*/
