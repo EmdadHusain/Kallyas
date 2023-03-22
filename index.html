@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/all.min-V6.css" />
     <link rel="stylesheet" href="css/fontawesome.min-V6.css" />
     <!-- <link rel="stylesheet" href="css/material-design-iconic-font.min.css" /> -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.v5.2.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/meanmenu.min.css" />
@@ -20,32 +20,44 @@
     <!--=========
        #header_area Starts
       ========== -->
-      
+      <a href="javascript:void(0)"><i class="fas fa-arrow-up scroll_icn"></i></a>
       <div id="mobile-menu"></div>
     <header id="header-area">
       <div class="containerC">
         <div class="top-header">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-lg-auto">
               <div class="logo-area">
                 <h1><a href=""> Kallyas<span>.</span></a></h1>
               </div>
             </div>
-            <div class="col-md-9 ">
+            <div class="col">
+              <input type="radio" name="slide" id="menuBtn">
+              <input type="radio" name="slide" id="cancelBtn">
+              <label for="menuBtn" class="menu_btn mobile"><i class="fas fa-bars"></i></label>
+              
+              
               <div class="main-menu">
+                <label for="cancelBtn" class="cancel_btn mobile"><i class="fas fa-times"></i></label>
                 <ul>
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#header-area">Home</a></li>
                   <li>
-                    <a href="">DropDown</a>
+                    <a href="" class="desk">DropDown</a>
+                    <input type="checkbox"   id="showDrop">
+                    <label for="showDrop" class="mobile">DropDown<i class="fas fa-angle-double-down li_icn"></i></label>
                     <ul>
                       <li><a href="">Demo Menu</a></li>
                       <li><a href="">Demo Menu</a></li>
                       <li>
-                        <a href="">DropDown</a>
+                        <a href="" class="desk" >DropDown 2</a>
+                        <input type="checkbox"  id="showDrop2">
+                        <label for="showDrop2" class="mobile">DropDown 2<i class="fas fa-angle-double-down li_icn"></i></label>
                         <ul>
                           <li><a href="">Demo Menu</a></li>
                           <li><a href="">Demo Menu</a></li>
-                          <li><a href="">DropDown</a>
+                          <li> <a href="" class="desk" >DropDown 3</a>
+                            <input type="checkbox"  id="showDrop3">
+                            <label for="showDrop3" class="mobile">DropDown 3<i class="fas fa-angle-double-down li_icn"></i></label>
                           <ul>
                             <li><a href="">Demo Menu</a></li>
                             <li><a href="">Demo Menu</a></li>
@@ -70,6 +82,49 @@
                   </li>
                   
                   <li><a href="#service-area">Services</a></li>
+                  <li class="mega_menu_li"><a href="" class="desk">Mega Menu</a>
+                    <input type="checkbox" name="" id="showMega">
+                    <label for="showMega" class="mobile">Mega Menu<i class="fas fa-angle-double-down li_icn"></i></label>
+                    <div class="mega_box">
+                      <div class="row no-gutters">
+                        <div class="col">
+                          <div class="row">
+                            <div class="col">
+                              <h2>Graphics Design</h2>
+                              <ul>
+                                <li><a href="">Logo Design</a></li>
+                                <li><a href="">Card Design</a></li>
+                                <li><a href="">Template Design</a></li>
+                                <li><a href="">Broshure Design</a></li>
+                              </ul>
+                            </div>
+                            <div class="col">
+                              <h2>Web Design</h2>
+                              <ul>
+                                <li><a href="">Wordpress Website </a></li>
+                                <li><a href="">Joomla Website </a></li>
+                                <li><a href="">WooCommerce site </a></li>
+                                <li><a href="">Shopify Website </a></li>
+                              </ul>
+                            </div>
+                            <div class="col">
+                              <h2>Email Services</h2>
+                              <ul>
+                                <li><a href="">Personal Email </a></li>
+                                <li><a href="">Web Email </a></li>
+                                <li><a href="">Mobile Email </a></li>
+                                <li><a href="">Business Email </a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="bg_img"></div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                   <li><a href="#handcraft-area">Works</a></li>
                   <li><a href="#client-area">About Us</a></li>
                   <li><a href="#isotope-area">Features</a></li>
@@ -156,8 +211,8 @@
                    
                     <div class="business-carousel owl-carousel">
                       <img src="img/tab.jpg" alt="">
-                      <img src="img/surface.jpg" alt="">
-                      <img src="img/web.png" alt="">
+                      <img src="img/bannerLaptopAnalysis.jpg" alt="">
+                      <img src="img/OfficeStudio.jpg" alt="">
                       <img src="img/studyImg.jpg" alt="">
                       <img src="img/slideImg-2.jpg" alt="">
                       
@@ -252,29 +307,29 @@
             <li data-filter='.des'>Design</li>
             <li data-filter='.pho'>Photography</li>
           </ul>
-          <div class="row project-lists">
-            <div class="col-md-3 col-sm-4 col-6 web">
+          <div class="row projects">
+            <div class="col-md-3 col-sm-4 col-6 bra">
               <div class="child-isotope"></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6  adv pho">
+            <div class="col-md-3 col-sm-4 col-6  adv  bra des">
               <div class="child-isotope child-isotope-bg-2"></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 web adv">
-              <div class="child-isotope child-isotope-bg-3 adv"></div>
+            <div class="col-md-3 col-sm-4 col-6 web pho adv  bra">
+              <div class="child-isotope child-isotope-bg-3 "></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6">
-              <div class="child-isotope child-isotope-bg-4 bra"></div>
+            <div class="col-md-3 col-sm-4 col-6  adv des ">
+              <div class="child-isotope child-isotope-bg-4 "></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 web des">
+            <div class="col-md-3 col-sm-4 col-6 web des pho">
               <div class="child-isotope child-isotope-bg-5"></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 adv bra pho">
+            <div class="col-md-3 col-sm-4 col-6 web adv  pho des">
               <div class="child-isotope child-isotope-bg-6 "></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 web adv bra pho">
+            <div class="col-md-3 col-sm-4 col-6 web  bra pho">
               <div class="child-isotope child-isotope-bg-7"></div>
             </div>
-            <div class="col-md-3 col-sm-4 col-6">
+            <div class="col-md-3 col-sm-4 col-6 ">
               <div class="child-isotope child-isotope-bg-8"></div>
             </div>
           </div>
@@ -302,7 +357,7 @@
             <div class="col-md-6">
               <div class="client-video-area-wrapper">
                 <div class="client-video-area">
-                  <a class="mfp-iframe video-play-btn" target="_blank" href="https://www.youtube.com/watch?v=P8frC_cLLD4"><i class="fa-solid fa-play"></i></a>
+                  <a class="mfp-iframe video-play-btn" target="_blank" href="https://www.youtube.com/watch?v=rkpzYNB6xks"><i class="fa-solid fa-play"></i></a>
                 </div>
 
               </div>
@@ -498,7 +553,7 @@
 
     <!-- <div class="mt500" style="margin-top: 500px"></div> -->
     <script src="js/jQueryv3.6.0.min.js"></script>
-    <script src="js/ajaxgoogle.min.js"></script>
+    <!-- <script src="js/ajaxgoogle.min.js"></script> -->
     <script src="js/owl.carousel.min2.3.4.js"></script>
     <script src=js/meanmenu.min.js></script>
     <script src=js/isotope-3.0.6.min.js></script>
