@@ -19,7 +19,7 @@ Common Css Starts
 .scroll_icn {
 	display:none;
 	position: fixed;
-	bottom: 3%;
+	bottom: 5%;
 	right: 5%;
 	z-index: 99;
 	font-size: 18px;
@@ -360,7 +360,7 @@ Common Css Ends
   position:absolute;
   right:0;
   top:0 ;
-  width:90%;
+  width:100%;
   height:100%;
   content:''; 
   background-image: url(img/laptopOperator.jpg);
@@ -388,9 +388,11 @@ Common Css Ends
   font-size: 18px;
   border-radius: 2px;
   margin-bottom: 2px;
+  transition: .3s;
 }
 .main-menu ul li.mega_menu_li ul li a {
   padding: 8px 10px;
+  border-left: 3px solid transparent;
 }
 
 .main-menu h2 {
@@ -408,6 +410,7 @@ Common Css Ends
 }
 .main-menu ul li.mega_menu_li ul li:hover a {
   background: #07b8edf0;
+  border-left-color: aqua;
 }
 
 .mega_menu_li:hover .mega_box,.mega_menu_li:hover .mega_box ul {
