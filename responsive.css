@@ -33,6 +33,12 @@
 }
 
 @media only screen and (max-width: 1650px) {
+  .mega_box {
+    
+    width: 80%;
+    left: 10%;
+    
+  }
   .handcraft-img {
     width: 45%;
   }
