@@ -120,6 +120,7 @@ h6 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   margin-bottom: 0;
+  font-size: unset;
 }
 ul {
   margin-bottom: 0;
@@ -147,7 +148,7 @@ Common Css Ends
   }
 .main-menu {
   text-align: right;
-  margin-top: 18px;
+  margin-top: 12.5px;
 }
 .social-area a {
   display: inline-block;
@@ -188,7 +189,7 @@ Common Css Ends
   right: 0;
   top:0;
   background: #197c9fa3;
-  padding: 0 2% 10px 5%;
+  padding: 10px 2% 10px 5%;
   z-index: 999999999;
   transition: .8s;
 }
@@ -342,8 +343,8 @@ Common Css Ends
 /* MegaMenu S */
 .mega_box {
 	position: fixed;
-	width: 80%;
-	left: 10%;
+	width: 70%;
+	left: 15%;
 	background: #19aee3f2;
 	padding: 32px 44px;
 	opacity: 0;
