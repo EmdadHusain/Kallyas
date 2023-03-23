@@ -1,563 +1,890 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kallyas</title>
-    <link rel="stylesheet" href="css/all.min-V6.css" />
-    <link rel="stylesheet" href="css/fontawesome.min-V6.css" />
-    <!-- <link rel="stylesheet" href="css/material-design-iconic-font.min.css" /> -->
-    <link rel="stylesheet" href="css/bootstrap.v5.2.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/meanmenu.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-  </head>
-  <body>
-   
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@600;700;900&display=swap');
+/*======================
+Common Css Starts 
+========================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  resize: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* line-height: 1.5em; */
+}
+.test {
+  color: green;
+}
+.scroll_icn {
+	display:none;
+	position: fixed;
+	bottom: 3%;
+	right: 5%;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	background: #13518A85;
+	color: #fff;
+	line-height: 50px;
+  text-align:center;
+	color: #fff;
+}
 
-    <!--=========
-       #header_area Starts
-      ========== -->
-      <a href="javascript:void(0)"><i class="fas fa-arrow-up scroll_icn"></i></a>
-      <div id="mobile-menu"></div>
-    <header id="header-area">
-      <div class="containerC">
-        <div class="top-header">
-          <div class="row">
-            <div class="col-lg-auto">
-              <div class="logo-area">
-                <h1><a href=""> Kallyas<span>.</span></a></h1>
-              </div>
-            </div>
-            <div class="col">
-              <input type="radio" name="slide" id="menuBtn">
-              <input type="radio" name="slide" id="cancelBtn">
-              <label for="menuBtn" class="menu_btn mobile"><i class="fas fa-bars"></i></label>
-              
-              
-              <div class="main-menu">
-                <label for="cancelBtn" class="cancel_btn mobile"><i class="fas fa-times"></i></label>
-                <ul>
-                  <li><a href="#header-area">Home</a></li>
-                  <li>
-                    <a href="" class="desk">DropDown</a>
-                    <input type="checkbox"   id="showDrop">
-                    <label for="showDrop" class="mobile">DropDown<i class="fas fa-angle-double-down li_icn"></i></label>
-                    <ul>
-                      <li><a href="">Demo Menu</a></li>
-                      <li><a href="">Demo Menu</a></li>
-                      <li>
-                        <a href="" class="desk" >DropDown 2</a>
-                        <input type="checkbox"  id="showDrop2">
-                        <label for="showDrop2" class="mobile">DropDown 2<i class="fas fa-angle-double-down li_icn"></i></label>
-                        <ul>
-                          <li><a href="">Demo Menu</a></li>
-                          <li><a href="">Demo Menu</a></li>
-                          <li> <a href="" class="desk" >DropDown 3</a>
-                            <input type="checkbox"  id="showDrop3">
-                            <label for="showDrop3" class="mobile">DropDown 3<i class="fas fa-angle-double-down li_icn"></i></label>
-                          <ul>
-                            <li><a href="">Demo Menu</a></li>
-                            <li><a href="">Demo Menu</a></li>
-                            <li><a href="">Demo Menu</a></li>
-                            <li><a href="">Demo Menu</a></li>
-                            <li><a href="">Demo Menu</a></li>
-                            <li><a href="">Demo Menu</a></li>
-                            <li><a href="">Demo Menu</a></li>
-                          </ul>
-                          </li>
-                          <li><a href="">Demo Menu</a></li>
-                          <li><a href="">Demo Menu</a></li>
-                          <li><a href="">Demo Menu</a></li>
-                          <li><a href="">Demo Menu</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="">Demo Menu</a></li>
-                      <li><a href="">Demo Menu</a></li>
-                      <li><a href="">Demo Menu</a></li>
-                      <li><a href="">Demo Menu</a></li>
-                    </ul>
-                  </li>
-                  
-                  <li><a href="#service-area">Services</a></li>
-                  <li class="mega_menu_li"><a href="" class="desk">Mega Menu</a>
-                    <input type="checkbox" name="" id="showMega">
-                    <label for="showMega" class="mobile">Mega Menu<i class="fas fa-angle-double-down li_icn"></i></label>
-                    <div class="mega_box">
-                      <div class="row no-gutters">
-                        <div class="col">
-                          <div class="row">
-                            <div class="col">
-                              <h2>Graphics Design</h2>
-                              <ul>
-                                <li><a href="">Logo Design</a></li>
-                                <li><a href="">Card Design</a></li>
-                                <li><a href="">Template Design</a></li>
-                                <li><a href="">Broshure Design</a></li>
-                              </ul>
-                            </div>
-                            <div class="col">
-                              <h2>Web Design</h2>
-                              <ul>
-                                <li><a href="">Wordpress Website </a></li>
-                                <li><a href="">Joomla Website </a></li>
-                                <li><a href="">WooCommerce site </a></li>
-                                <li><a href="">Shopify Website </a></li>
-                              </ul>
-                            </div>
-                            <div class="col">
-                              <h2>Email Services</h2>
-                              <ul>
-                                <li><a href="">Personal Email </a></li>
-                                <li><a href="">Web Email </a></li>
-                                <li><a href="">Mobile Email </a></li>
-                                <li><a href="">Business Email </a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="bg_img"></div>
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="#handcraft-area">Works</a></li>
-                  <li><a href="#client-area">About Us</a></li>
-                  <li><a href="#isotope-area">Features</a></li>
-                  <li><a href="#footer-area">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bottom-header">
-          <h2>
-            Helping Business And Companies
-            Innovate Transform And Lead
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-          <a href="#" class="boxed-btn">Start Now</a>
-          <a href="#" class="boxed-btn">Our Services</a>
-        </div>
-      </div>
-    </header>
-    <!--=======
-       #header_area Ends
-      ======== -->
+body {
+  color: #1f1f1f;
+  font-family: 'Roboto', sans-serif;
 
-    <!--========
-       #design-area Starts
-      ======== -->
-      <div id="design-area">
-        <div class="inner-design-area">
-          <div class="containerC">
-            <div class="row">
-              <div class="col-md-4 col-sm-6">
-                <div class="child-service">
-                  <i class="far fa-copy"></i>
-                  <h5>Content Concept & Strategy</h5>
-                  <p>Aenean pharetra magna ac placerat magna vestibulum lectus mauris ultrices eros. Eget aliquet nibh dignissim odio velit mauris.</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="child-service">
-                  <i class="fas fa-pen-ruler"></i>
-                  <h5>Design & Concepts</h5>
-                  <p>In egestas erat imperdiet sed euismod. A diam maecenas sed enim ut sem. Faucibus in ornare quam viverra.</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="child-service">
-                  <i class="fas fa-search"></i>
-                  <h5>SEO & Marketing Solutions</h5>
-                  <p>In egestas erat imperdiet sed euismod. A diam maecenas sed enim ut sem. Faucibus in ornare quam viverra.</p>
-                </div>
-              </div>
-             
-            </div>
-          </div>
-        </div>
-       
-      </div>
-   
-    <!--==========
-       #design-area Ends
-      =========== -->
-    <!--==========
-       #business-area Starts
-      =========== -->
-      <div id="business-area" class="main-container section-padding">
-        <div class="containerC">
-          <div class="row">
-            <div class="col-lg-6 col-md-5">
-              <div class="left-business">
-                <h2>Detailed business plans & the
-                  most effective results</h2>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et. Accumsan lacus vel facilisis volutpat est velit egestas. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. At varius vel pharetra vel turpis nunc eget.</p>
-                  
-                    <a href="" class="boxed-btn">Start Now</a>
-                  
-                  
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-7">
-              <div class="right-business">
-                <div class="row">
-                  <div class="col-6">
-                   
-                    <div class="business-carousel owl-carousel">
-                      <img src="img/tab.jpg" alt="">
-                      <img src="img/bannerLaptopAnalysis.jpg" alt="">
-                      <img src="img/OfficeStudio.jpg" alt="">
-                      <img src="img/studyImg.jpg" alt="">
-                      <img src="img/slideImg-2.jpg" alt="">
-                      
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="business-frame">.</div>
-                  </div>
-                </div>
+  font-size: 16px;
+  /* line-height: 1.5em; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.containerC {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 96%;
+}
+.main-container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-              </div>
-            
-            </div>
-          </div>
-        </div>
-      </div>
-    
-    <!--==========
-       #businesws-area Ends
-      =========== -->
-    <!--==========
-       #service-area Starts
-      =========== -->
-      <div id="service-area" class="section-padding">
-        <div class="main-container">
-          <div class="containerC">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-service">
-                <div class="row">
-                  
-                    <div class="col-sm-6 ">
-                    
-                      <div class="child-left-service">
-                        <h5>01. Elegant / unique design</h5>
-                        <p>Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Aliquam ut porttitor a sollicitudin.</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="child-left-service">
-                        <h5>02. True responsiveness</h5>
-                        <p>Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Aliquam ut porttitor a sollicitudin.</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="child-left-service">
-                        <h5>03. Different layout type</h5>
-                        <p>Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Aliquam ut porttitor a sollicitudin.</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="child-left-service">
-                        <h5>04. Make it simple</h5>
-                        <p>Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Aliquam ut porttitor a sollicitudin.</p>
-                      </div>
-                    </div>
-                  
-                
-                </div>
-              </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-service">
-                  <h2>We provide high quality and
-                    cost effective services.</h2>
-                    <p>Massa ultricies mi quis hendrerit dolor magna eget est lorem. Amet risus nullam eget felis eget. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque.</p>
-                    <p>Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Urna nunc id cursus metus aliquam eleifend. Imperdiet proin fermentum leo vel orci.</p>
-  
-                </div>
-               
-              </div>
-  
-            </div>
-          
-          </div>
-        </div>
-       
-      </div>
-    <!--==========
-       #service-area Ends
-      =========== -->
-    <!--==========
-       #isotope-area Starts
-      =========== -->
-      <div id="isotope-area" class="section-padding">
-        <div class="main-container">
-          <ul class="project-titles">
-            <li data-filter='*'>All</li>
-            <li data-filter='.web'>Web</li>
-            <li data-filter='.adv'>Advertising</li>
-            <li data-filter='.bra'>Branding</li>
-            <li data-filter='.des'>Design</li>
-            <li data-filter='.pho'>Photography</li>
-          </ul>
-          <div class="row projects">
-            <div class="col-md-3 col-sm-4 col-6 bra">
-              <div class="child-isotope"></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6  adv  bra des">
-              <div class="child-isotope child-isotope-bg-2"></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6 web pho adv  bra">
-              <div class="child-isotope child-isotope-bg-3 "></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6  adv des ">
-              <div class="child-isotope child-isotope-bg-4 "></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6 web des pho">
-              <div class="child-isotope child-isotope-bg-5"></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6 web adv  pho des">
-              <div class="child-isotope child-isotope-bg-6 "></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6 web  bra pho">
-              <div class="child-isotope child-isotope-bg-7"></div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-6 ">
-              <div class="child-isotope child-isotope-bg-8"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-     
-     <!--==========
-       #isotope-area Ends
-      =========== -->
-     <!--==========
-       #client-area Starts
-      =========== -->
-      <div id="client-area">
-        <div class="containerC">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-client">
-                <h2>We are trusted by more than
-                  3600+ clients.</h2>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et. Accumsan lacus vel facilisis volutpat est velit egestas. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. At varius vel pharetra vel turpis nunc eget.</p>
-                  <a href="" class="boxed-btn">Learn More</a>
-              </div>
-              
-            </div>
-            <div class="col-md-6">
-              <div class="client-video-area-wrapper">
-                <div class="client-video-area">
-                  <a class="mfp-iframe video-play-btn" target="_blank" href="https://www.youtube.com/watch?v=rkpzYNB6xks"><i class="fa-solid fa-play"></i></a>
-                </div>
+a {
+  text-decoration: none;
+  color: #a4a4a4;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus,
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+li {
+  display: inline-block;
+  list-style: none;
+}
 
-              </div>
-             
+input,
+button,
+textarea {
+  padding: 10px 20px;
+  background: #fafafa;
+  resize: none;
+}
+input[type='submit'],
+button[type='submit'] {
+  background: #fb414e;
+  color: #fff;
+}
+
+.boxed-btn {
+  font-size: 16px;
+  line-height: 1;
+  padding: 14px 60px;
+  border: 2px solid #fb414e;
+  color: #fff;
+  display: inline-block;
+}
+.video-play-btn {
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+  line-height: 88px;
+  color: #fff;
+  padding-left: 6px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: unset;
+}
+ul {
+  margin-bottom: 0;
+  padding-left:0;
+}
+p {
+  line-height: 1.75;
+  font-weight: 300;
+  margin-bottom: 0;
+  color: #838383;
+  font-weight: 300;
+}
+
+/*=======================
+Common Css Ends 
+=========================*/
+/*=========================
+  .header_area Starts
+  ===========================*/
+  #menuBtn,#cancelBtn {
+    display: none;
+  }
+.mobile{
+    display:none;
+  }
+.main-menu {
+  text-align: right;
+  margin-top: 18px;
+}
+.social-area a {
+  display: inline-block;
+  margin: 0 7.5px;
+  transition: 0.22s;
+}
+.social-area a i {
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  background: #333333;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding-left: 1px;
+}
+#header-area {
+  background: linear-gradient(#00000096,#00000038),url(img/studyImg.jpg) center/cover;
+  padding: 43px 0 240px;
+}
+
+.top-header a {
+  color: #fff;
+}
+
+.top-header h1 span {
+  color: #fb414e;
+}
+
+.top-header h1 a {
+  font-size: 36px;
+
+  font-weight: 900;
+}
+.sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  background: #197c9fa3;
+  padding: 0 2% 10px 5%;
+  z-index: 999999999;
+  transition: .8s;
+}
 
 
-            </div>
-          </div>
-        </div>
-      </div>
-     <!--==========
-       #client-area Ends
-      =========== -->
-    <!--==========
-       #handcrafted-area Starts
-      =========== -->
-      <div id="handcraft-area">
-        <div class="main-container section-padding">
-          <div class="containerC">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-handcraft">
-                  <h2>Beautifully handcrafted
-                    designs for your website</h2>
-                    <p class="first_P">Enim ut tellus elementum sagittis vitae et leo duis. Feugiat sed lectus vestibulum mattis ullamcorper. Aenean et tortor at risus viverra adipiscing at. Neque aliquam vestibulum morbi blandit cursus risus at.</p>
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="child-lHandcraft">
-                          <i class="fa-solid fa-database"></i>
-                          <h5>Secured Database</h5>
-                          <p>Ullamcorper dignissim cras tincidunt vet lobortis feugiat vivamus. Sed euismod nisi porta lorem mollis turpis.</p>
-  
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="child-lHandcraft">
-                          <i class="fa-brands fa-stack-overflow"></i>
-                          <h5>Modern Framework</h5>
-                          <p>Pharetra massa massa ultricies mi quis hendrerit. Interdum consectetur libero nisl tincidunt eget. nullamnon.consectetur purus.</p>
-  
-  
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              
 
-            </div>
-            <img class="handcraft-img" src="img/Handicraft.png" alt=>
-           
-          </div>
-        </div>
-      </div>
-    <!--==========
-       #handcrafted-area Ends
-      =========== -->
-    <!--==========
-       #project-area Starts
-      =========== -->
-      <div id="project-area" class="section-padding">
-        <div class="containerC">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-project">
-                <h2>Want to have a
-                  proffesional project?
-                  Let’s talk about it.</h2>
-                  
-                  <p class="first-p">Est ultricies integer quis auctor elit sed vulputate mi. Lectus nulla at volutpat diam ut. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Parturient montes nascetur ridiculus mus mauris vitae.
-                  </p>
-                  <p> Vel fringilla est ullamcorper eget nulla. Urna duis convallis convallis tellus id interdum velit laoreet id. Donec adipiscing tristique risus nec feugiat. Egestas dui id ornare arcu odio ut sem nulla.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
 
-              <form action="pixelShraft.html" class="project-form">
-                <input type="text" name="name" id="" placeholder="Your name*">
-                <div class="row">
-                  <div class="col-6">
-                    <input class="Cname" type="text" name="Cname" id="" placeholder="Company name*">
-                  </div>
-                  <div class="col-6">
-                    <input class="email" type="email" name="" id="" placeholder="Email Address*">
-                  </div>
-                </div>
-               
-                
-                <select name="" >
-                  <option value="">Select Service*</option>
-                  <option value="">Demo Service</option>
-                  <option value="">Demo Service</option>
-                  <option value="">Demo Service</option>
-                  <option value="">Demo Service</option>
-                </select>
 
-                <textarea name="message" id=""  placeholder="Describe your project*"></textarea>
-                </div>
-                <input type="submit" name="" id="">
-              </form>
-               
 
-                
-             
-            </div>
-          </div>
-        </div>
-      
-    <!--==========
-       #project-area Ends
-      =========== -->
+.main-menu ul li:first-child a {
+  margin-left: 0;
+}
+.main-menu ul li input{
+  display:none;
+}
+.main-menu ul ul li {
+  margin-left: 0;
+}
 
-    <!--========
-       #footer_area Starts
-      ======== -->
-      <footer id="footer-area">
-        <div class="containerC">
-          <div class="footer-head">
-            
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="logo-area">
-                    <h1><a href=""> Kallyas<span>.</span></a></h1>
-                  </div>
-                </div>
-                <div class="col-sm-9 ">
-                  <div class="footer-menu">
-                    <ul>
-                      <li><a href="">Home</a></li>
-                      <li><a href="#about-area">Services</a></li>
-                      <li><a href="">Works</a></li>
-                      <li><a href="">About Us</a></li>
-                      <li><a href="#contact-area">Features</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            
-          </div>
-          <div class="footer-contact">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="left-footer-contact">
-                  <h6>
-                    Contact
-                  </h6>
-                  <p>758 E. Beechwood Lane Bay Shore, NY 11706
-                    youremail@address.com, +1-202-555-0158</p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="footer-form">
-                  <h6>Subscribe to newsletter</h6>
-                  <form action="">
-                    <input type="email" placeholder="Your e-mail address">
-                    <input type="submit" placeholder="Your e-mail address">
-                  </form>
-                 </div>
-                
-               
-              </div>
-            </div>
-            
-          </div>
-          <div class="footer-bottom">
-            <div class="row">
-              <div class="col-12 col-sm-4">
-                <div class="footer-social">
-                  
-                 
-                  <a href=""><i class="fab fa-pinterest"></i></a>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  
-                 
-                </div>
-              </div>
-              <div class="col-12 col-sm-8">
-                <p>&copy; 2019. All rights reserved. Buy Kallyas Wordpress Theme.</p>
-              </div>
-            </div>
+.bottom-header {
+  padding-top: 115px;
+  text-align: center;
+  color: #fff;
+}
 
-          </div>
-        </div>
-      </footer>
-     
+.bottom-header h2 {
+  max-width: 891px;
+  margin: 0 auto 56px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.3;
+}
 
-    <!--=========
-       #footer_area Ends
-      ========= -->
-    
+.bottom-header p {
+  max-width: 651px;
+  margin: 0 auto 58px;
+  line-height: 1.75;
+  color: #fff;
+}
+.bottom-header .boxed-btn:hover {
+  background: #fb414e;
+  color: #fff;
+}
 
-    <!-- <div class="mt500" style="margin-top: 500px"></div> -->
-    <script src="js/jQueryv3.6.0.min.js"></script>
-    <!-- <script src="js/ajaxgoogle.min.js"></script> -->
-    <script src="js/owl.carousel.min2.3.4.js"></script>
-    <script src=js/meanmenu.min.js></script>
-    <script src=js/isotope-3.0.6.min.js></script>
-    <script src="js/magnific-popup-1.1.0.min.js"></script>
-    <script src="main.js"></script>
-  </body>
-</html>
+.bottom-header .boxed-btn {
+  margin-right: 30px;
+  transition: 0.2s;
+}
+
+.bottom-header a:last-child.boxed-btn {
+  margin-right: 0;
+  padding: 14px 47px;
+}
+
+#header-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: '';
+  opacity: 0.3;
+  z-index: -1;
+}
+/* Dropdown */
+.main-menu ul li {
+  position: relative;
+  margin-left: 30px;
+}
+
+.main-menu ul ul {
+	position: absolute;
+	left: 0;
+	top: 24px;
+	width: 180px;
+	background: #136885d4;
+	visibility: hidden;
+	opacity: 0;
+	margin-top: 30px;
+}
+
+.main-menu ul ul li {
+  display: block;
+  text-align: center;
+}
+
+.main-menu ul ul li a {
+  margin: auto;
+  display: block;
+  padding: 7px;
+}
+
+.main-menu ul ul ul {
+	left: 180px;
+	top: 0;
+	background: #1d5896cf;
+}
+.main-menu ul ul ul ul {
+	background: #0e8fa4d1;
+}
+
+/* dropdown Hover */
+.main-menu ul li a {
+ 
+  display: block;
+  position: relative;
+}
+
+.main-menu > ul > li > a:before {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fb414e;
+  content: '';
+  opacity: 0;
+  transition: 0.5s;
+  visibility: hidden;
+  z-index: 100;
+}
+
+.main-menu ul li:hover > a::before {
+  opacity: 1;
+  visibility: visible;
+}
+.main-menu ul ul li a:hover::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.main-menu ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+  transition: .3s;
+}
+
+.main-menu ul ul li:hover > a {
+  background: #2590b66e;
+}
+.main-menu ul ul ul li:hover > a {
+  background: #1e6ec17d;
+  margin-bottom: 0;
+}
+.main-menu ul ul ul ul li:hover a {
+  background: #07b6d270;
+}
+/* MegaMenu S */
+.mega_box {
+	position: fixed;
+	width: 80%;
+	left: 10%;
+	background: #19aee3f2;
+	padding: 32px 44px;
+	opacity: 0;
+	visibility: hidden;
+	margin-top: 45px;
+}
+.bg_img {
+  position: relative;
+  height:100%;
+}
+
+.bg_img::before {
+  position:absolute;
+  right:0;
+  top:0 ;
+  width:90%;
+  height:100%;
+  content:''; 
+  background-image: url(img/laptopOperator.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 364px;
+}
+
+
+.main-menu ul li.mega_menu_li {
+  position: static;
+}
+.main-menu ul li.mega_menu_li ul {
+  position: static;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 0;
+  text-align: left;
+  padding-left: 0;
+  background: transparent;
+  width: auto;
+}
+.main-menu ul li.mega_menu_li ul li {
+  text-align: left;
+  font-size: 18px;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+.main-menu ul li.mega_menu_li ul li a {
+  padding: 8px 10px;
+}
+
+.main-menu h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 11px;
+  padding-left: 10px;
+}
+
+
+.main-menu ul li.mega_menu_li ul a:hover::before {
+  opacity: 0;
+  visibility: hidden;
+}
+.main-menu ul li.mega_menu_li ul li:hover a {
+  background: #07b8edf0;
+}
+
+.mega_menu_li:hover .mega_box,.mega_menu_li:hover .mega_box ul {
+  opacity: 1;
+  visibility: visible;
+  transition: .3s;
+  margin-top: 0;
+}
+
+
+
+/* megaEnd */
+
+/*=========================
+    .header_area Ends
+    ===========================*/
+
+/*=========================
+    .design-area Starts
+    ===========================*/
+#design-area {
+  padding-bottom: 102px;
+}
+
+.child-service {
+  background: #202b30;
+  padding: 75px 55px;
+  padding: 18.5% 13%;
+  color: #fff;
+  max-height: 420px;
+  transition: 0.3s;
+}
+
+.child-service i {
+  font-size: 60px;
+  margin-bottom: 54px;
+  cursor: pointer;
+}
+
+.child-service h5:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 51px;
+  height: 3px;
+  background: #fff;
+  content: '';
+}
+
+.child-service h5 {
+  position: relative;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+
+.child-service:hover {
+  background: #467da4;
+}
+
+.child-service:hover p {
+  color: #fff;
+}
+
+.inner-design-area {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin-top: -5.5%;
+}
+
+/*=========================
+    .design-area Ends
+    ===========================*/
+
+/*=========================
+     .business-area Starts
+    ===========================*/
+.left-business h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 53px;
+}
+.left-business .boxed-btn:hover {
+	background: #fff;
+	color: #494949;
+	transition: .2s;
+}
+
+#business-area.main-container {
+  background: #000;
+}
+
+#business-area.section-padding {
+  color: #fff;
+}
+.left-business {
+  max-width: 618px;
+}
+.right-business {
+  max-width: 550px;
+  margin-left: auto;
+  height: 100%;
+}
+
+.left-business p {
+  margin-bottom: 56px;
+  color: #fff;
+}
+
+.left-business .boxed-btn {
+  border-color: #fff;
+}
+.business-carousel img {
+  height: 370px;
+}
+.business-frame {
+  background: #134F5C;
+  color: #fb414e;
+  height: 370px;
+}
+/*=========================
+  .business-area Ends
+    ===========================*/
+/*=========================
+  .service-area Starts
+    ===========================*/
+.left-service {
+  padding-top: 12px;
+}
+#service-area {
+  background: #f8f8f8;
+}
+
+.child-left-service h5 {
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.child-left-service {
+  margin-bottom: 74px;
+}
+.right-service h2 {
+  font-size: 48px;
+  margin-bottom: 52px;
+}
+.right-service p:nth-of-type(1) {
+  margin-bottom: 34px;
+}
+#service-area .col-sm-6:last-child .child-left-service {
+  margin-bottom: 0;
+}
+
+/*=========================
+  .service-area Ends
+    ===========================*/
+/*=========================
+  .isotope-area Starts
+    ===========================*/
+
+#isotope-area .col-md-3 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.child-isotope {
+  background: url(img/Hood.jpg) center/cover;
+  height: 320px;
+  margin-bottom: 10px;
+}
+.child-isotope-bg-2 {
+  background: url(img/Nike.jpg) center/cover;
+}
+.child-isotope-bg-3 {
+  background: url(img/Number.jpg) center/cover;
+}
+.child-isotope-bg-4 {
+  background: url(img/studyImg.jpg) center/cover;
+}
+.child-isotope-bg-5 {
+  background: url(img/tab.jpg) center/cover;
+}
+.child-isotope-bg-6 {
+  background: url(img/BlackBag.jpg) center/cover;
+}
+.child-isotope-bg-7 {
+  background: url(img/bag.jpg) center/cover;
+}
+.child-isotope-bg-8 {
+  background: url(img/Chemical.jpg) center/cover;
+}
+.project-titles li {
+  cursor: pointer;
+  margin: 0px 34px;
+  color: #a4a4a4;
+  transition: 0.3s;
+}
+
+.project-titles li:after {
+  position: relative;
+  display: block;
+  width: 110%;
+  height: 2px;
+  background: #1f1f1f;
+  content: '';
+  margin-top: -1px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  transform: scale(0);
+  left: -5%;
+  top: 2px;
+}
+.project-titles li:hover {
+  color: #1f1f1f;
+}
+
+.child-left-service p {
+  color: #838383;
+}
+
+.project-titles li:hover:after {
+  visibility: visible;
+  opacity: 1;
+  transform: scalex(1);
+}
+
+.project-titles {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.project-titles li:first-child {
+  margin-left: 0;
+}
+
+.project-titles li:last-child {
+  margin-right: 0;
+}
+
+/*=========================
+  .isotope-area Ends
+    ===========================*/
+/*=========================
+  #client-video-area Starts
+    ===========================*/
+#client-area {
+  margin-bottom: 115px;
+}
+.client-video-area {
+  height: 335px;
+  width: 100%;
+  background: url(img/web.png) center/cover;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.client-video-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: '';
+  opacity: 40%;
+  z-index: -1;
+}
+
+#client-area h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+#client-area p {
+  margin-bottom: 42px;
+}
+
+#client-area .boxed-btn {
+  padding: 16px 51px;
+  color: #1f1f1f;
+}
+
+#client-area img {
+  height: 333px;
+}
+.client-video-area .video-play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+/*=========================
+  #client-video-area Starts
+    ===========================*/
+/*=========================
+  #handcraft-area Starts
+    ===========================*/
+
+.handcraft-img {
+  position: absolute;
+  bottom: 0px;
+  right: 25px;
+  height: 100%;
+  max-height: 646px;
+  width: 50%;
+  max-width: 790px;
+}
+
+#handcraft-area .main-container {
+  background: #f8f8f8;
+  position: relative;
+}
+.left-handcraft h2 {
+  font-size: 48px;
+  margin-bottom: 38px;
+}
+
+.left-handcraft .first_P {
+  margin-bottom: 48px;
+}
+
+.left-handcraft i {
+  font-size: 52px;
+  color: #fb4350;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.child-lHandcraft h5 {
+  margin-bottom: 25px;
+}
+
+/*=========================
+  #handcraft-area Ends
+    ===========================*/
+/*=========================
+#project-area Starts
+===========================*/
+
+.left-project h2 {
+  font-size: 60px;
+  margin-bottom: 43px;
+}
+.left-project .first-p {
+  margin-bottom: 35px;
+}
+.project-form input,
+.project-form textarea,
+select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 17px 20px;
+  border: 1px solid #000;
+}
+#project-area input[type='submit'] {
+  width: 190px;
+  padding: 15px 0;
+  margin: 18px auto 0;
+}
+.project-form input::placeholder,
+.project-form textarea::placeholder,
+select {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+}
+.project-form textarea {
+  height: 270px;
+}
+.left-project {
+  text-align: right;
+}
+/*=========================
+#project-area Ends
+===========================*/
+
+/*=========================
+    .footer_area Starts
+    ===========================*/
+#footer-area {
+  padding: 97px 0 60px;
+  background: #202b30;
+  color: #fff;
+}
+.left-footer-contact {
+  max-width: 322px;
+}
+
+.left-footer-contact h6 {
+  margin-bottom: 25px;
+}
+
+.footer-head {
+  margin-bottom: 93px;
+}
+#footer-area a,
+#footer-area p,
+#footer-area h2 {
+  color: #fff;
+}
+.footer-area h1 a {
+  font-size: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+}
+.footer-area h1 span {
+  color: #fb414e;
+}
+.footer-menu {
+  text-align: right;
+  margin-top: 36px;
+}
+.footer-menu ul li:first-child a {
+  margin-left: 0px;
+}
+.footer-menu ul li a {
+  margin-left: 56px;
+  display: block;
+  position: relative;
+}
+.footer-menu ul li a:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.footer-social a {
+  margin-right: 22px;
+}
+.footer-menu ul li a:before {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fb414e;
+  content: '';
+  opacity: 0;
+  transition: 0.5s;
+  visibility: hidden;
+}
+.footer-form h6 {
+  margin-bottom: 30px;
+}
+
+.footer-form {
+  text-align: right;
+}
+.footer-form input {
+  width: 77%;
+  margin-right: -4px;
+  padding: 17px;
+}
+
+.footer-form input[type='submit'] {
+  width: 23%;
+}
+.footer-contact {
+  margin-bottom: 95px;
+}
+
+.footer-bottom p {
+  text-align: right;
+}
+.footer-social a i {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  background: #fb414e;
+  border-radius: 50%;
+  color: #000;
+  font-size: 10px;
+  padding-right: 1px;
+}
+
+#footer-area .footer-bottom p {
+  font-size: 14px;   
+  color: #586165;
+}
+/*=========================
+    .footer_area Ends
+===========================*/
