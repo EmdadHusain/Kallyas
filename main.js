@@ -15,7 +15,7 @@ $(document).ready(function () {
   $(".scroll_icn").on('click',function(){
     $('html,body').animate({
       scrollTop:0
-    },500)
+    })
   });
   $('.business-carousel').owlCarousel({
     items: 1,
